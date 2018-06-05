@@ -29,5 +29,4 @@ DISCLAIMER:
     izvor inspiracie za likove:
         https://hr.wikipedia.org/wiki/Alan_Ford
 
-    Prava poduzeća (dobavljači) iz RH imaju
-    color logo i stvarne podatke
+    
