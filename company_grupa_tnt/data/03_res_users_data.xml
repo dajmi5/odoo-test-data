@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<odoo>
+    <data noupdate="0">
+        <record id="base.user_root" model="res.users">
+            <field name="login">admin</field>
+            <field name="partner_id" ref="base.partner_root"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="user_broj1" model="res.users">
+            <field name="login">broj1</field>
+            <field name="partner_id" ref="partner_broj1"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="user_debeli_sef" model="res.users">
+            <field name="login">debelisef</field>
+            <field name="partner_id" ref="partner_debeli_sef"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="user_jeremija" model="res.users">
+            <field name="login">jeremija</field>
+            <field name="partner_id" ref="partner_jeremija"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="user_alan_ford" model="res.users">
+            <field name="login">alanford</field>
+            <field name="partner_id" ref="partner_alan_ford"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="user_bob_rock" model="res.users">
+            <field name="login">bobrock</field>
+            <field name="partner_id" ref="partner_bob_rock"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="user_grunf" model="res.users">
+            <field name="login">grunf</field>
+            <field name="partner_id" ref="partner_grunf"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+        <record id="user_sir_oliver" model="res.users">
+            <field name="login">siroliver</field>
+            <field name="partner_id" ref="partner_sir_oliver"/>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    </data>
+</odoo>
