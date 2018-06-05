@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+    <record id="view_demo_company_vat_check_config" model="ir.ui.view">
+        <field name="name">view_demo_company_vat_check_config</field>
+        <field name="inherit_id" ref="demo_company.view_demo_company_config_settings"/>
+        <field name="model">demo.company.settings</field>
+        <field name="arch" type="xml">
+            <notebook position="inside">
+                <page string="HR - Attendance generator">
+                    <group>
+                        <field name="stay"/>
+                    </group>
+                    <group string="Period" colspan="4" col="4">
+                        <field name="date_start"/>
+                        <field name="date_end"/>
+                    </group>
+                    <group string="Attends" colspan="4" col="4">
+                        <field name="fixed_start"/>
+                        <field name="fixed_end"/>
+                        <field name="check_in" widget="float_time"/>
+                        <field name="check_out" widget="float_time"/>
+                        <field name="check_in_max" widget="float_time"
+                               attrs="{'invisible':[('fixed_start','=',True)]}"/>
+                        <field name="check_out_max" widget="float_time"
+                               attrs="{'invisible':[('fixed_end','=',True)]}"/>
+                    </group>
+                    <div>
+                        <button name="generate_attendance" type="object" string="Generate"/>
+                        <label string="Skip: saturday, sunday"/>
+                        <field name="skip_sub"/>
+                        <field name="skip_ned"/>
+                        <button name="clear_all_attendances" type="object" string="Clear all attendances"/>
+                    </div>
+                    <field name="employee_ids"/>
+                </page>
+            </notebook>
+        </field>
+    </record>
+    </data>
+</odoo>
