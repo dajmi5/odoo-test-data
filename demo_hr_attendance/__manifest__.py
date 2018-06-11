@@ -11,7 +11,7 @@
     "licence": "LGPL-3",
 
     "depends": [
-        "demo_company",
+        "company_grupa_tnt",
         "hr_attendance",
     ],
     "data": [
