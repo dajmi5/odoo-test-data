@@ -6,7 +6,7 @@
     "summary": "DEMO Comapny setup",
     "category": "Test / Demo",
     "images": [],
-    "version": "10.01.0.0",
+    "version": "10.0.1.0.0",
     "application": True,
 
     "author": "DAJ MI 5!",

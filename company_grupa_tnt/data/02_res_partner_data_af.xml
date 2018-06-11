@@ -3,7 +3,7 @@
 <data noupdate="1">
 <!-- DB: Heh morao sam... -->
 <record id="base.partner_root" model="res.partner">
-    <field name="image" type="base64" file="demo_company/static/img/likovi/no_brainfuck.png"/>
+    <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/no_brainfuck.png"/>
 </record>
 <!-- partner-user match -->
 <record id="partner_broj1" model="res.partner">
@@ -12,7 +12,7 @@
     <field name="is_company" eval="0"/>
     <field name="type">contact</field>
     <field name="email">broj1@grupatnt.hr</field>
-    <field name="image" type="base64" file="demo_company/static/img/likovi/broj_1.png"/>
+    <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/broj_1.png"/>
 </record>
 <record id="partner_debeli_sef" model="res.partner">
     <field name="parent_id" ref="base.main_partner"/>
@@ -20,7 +20,7 @@
     <field name="is_company" eval="0"/>
     <field name="type">contact</field>
     <field name="email">debelisef@grupatnt.hr</field>
-    <field name="image" type="base64" file="demo_company/static/img/likovi/debeli_sef.png"/>
+    <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/debeli_sef.png"/>
     <field name="comment">Stalno spava, a.k.a Debeli Šef</field>
 </record>
 <record id="partner_jeremija" model="res.partner">
@@ -29,7 +29,7 @@
     <field name="is_company" eval="0"/>
     <field name="type">contact</field>
     <field name="email">jeremija@grupatnt.hr</field>
-    <field name="image" type="base64" file="demo_company/static/img/likovi/jeremija.png"/>
+    <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/jeremija.png"/>
     <field name="comment">Hoće li doživjeti sutra?</field>
 </record>
 <record id="partner_alan_ford" model="res.partner">
@@ -38,7 +38,7 @@
     <field name="is_company" eval="0"/>
     <field name="type">contact</field>
     <field name="email">alanford@grupatnt.hr</field>
-    <field name="image" type="base64" file="demo_company/static/img/likovi/alan_ford.png"/>
+    <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/alan_ford.png"/>
 </record>
 <record id="partner_bob_rock" model="res.partner">
     <field name="parent_id" ref="base.main_partner"/>
@@ -46,7 +46,7 @@
     <field name="is_company" eval="0"/>
     <field name="type">contact</field>
     <field name="email">bobrock@grupatnt.hr</field>
-    <field name="image" type="base64" file="demo_company/static/img/likovi/bob_rock.png"/>
+    <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/bob_rock.png"/>
 </record>
 <record id="partner_grunf" model="res.partner">
     <field name="parent_id" ref="base.main_partner"/>
@@ -54,7 +54,7 @@
     <field name="is_company" eval="0"/>
     <field name="type">contact</field>
     <field name="email">grunf@grupatnt.hr</field>
-    <field name="image" type="base64" file="demo_company/static/img/likovi/grunf.png"/>
+    <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/grunf.png"/>
 </record>
 <record id="partner_sir_oliver" model="res.partner">
     <field name="parent_id" ref="base.main_partner"/>
@@ -62,7 +62,7 @@
     <field name="is_company" eval="0"/>
     <field name="type">contact</field>
     <field name="email">oliver@grupatnt.hr</field>
-    <field name="image" type="base64" file="demo_company/static/img/likovi/sir_oliver.png"/>
+    <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/sir_oliver.png"/>
 </record>
 <!-- TNT members, not users NO EMAILS-->
 <record id="partner_klo" model="res.partner">
@@ -71,14 +71,14 @@
     <field name="is_company" eval="0"/>
     <field name="type">contact</field>
     <field name="notify_email">none</field>
-    <field name="image" type="base64" file="demo_company/static/img/likovi/klodovik.png"/>
+    <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/klodovik.png"/>
 </record>
 <record id="partner_nosonja" model="res.partner">
     <field name="parent_id" ref="base.main_partner"/>
     <field name="name">Nosonja</field>
     <field name="is_company" eval="0"/>
     <field name="type">contact</field>
-    <field name="image" type="base64" file="demo_company/static/img/likovi/nosonja.png"/>
+    <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/nosonja.png"/>
 </record>
 <!-- Some other Alan Ford Characters -->
 <record id="partner_cezar" model="res.partner">
@@ -89,7 +89,7 @@
     <field name="type">other</field>
     <field name="notify_email">none</field>
     <field name="opt_out" eval="True"/><!-- no mass mailings for me please! -->
-    <field name="image" type="base64" file="demo_company/static/img/likovi/cezar.png"/>
+    <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/cezar.png"/>
 </record>
 <record id="partner_lamp" model="res.partner">
     <field name="name">Lamp Genius</field>
@@ -99,7 +99,7 @@
     <field name="type">other</field>
     <field name="notify_email">none</field>
     <field name="opt_out" eval="True"/><!-- no mass mailings for me please! -->
-    <field name="image" type="base64" file="demo_company/static/img/likovi/lamp.png"/>
+    <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/lamp.png"/>
 </record>
 <record id="partner_beppa" model="res.partner">
     <field name="name">Beppa Joseph</field>
@@ -109,7 +109,7 @@
     <field name="type">other</field>
     <field name="notify_email">none</field>
     <field name="opt_out" eval="True"/><!-- no mass mailings for me please! -->
-    <field name="image" type="base64" file="demo_company/static/img/likovi/beppa.png"/>
+    <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/beppa.png"/>
 </record>
 <record id="partner_superhik" model="res.partner">
     <field name="name">Superhik</field>
@@ -119,7 +119,7 @@
     <field name="type">other</field>
     <field name="notify_email">none</field>
     <field name="opt_out" eval="True"/><!-- no mass mailings for me please! -->
-    <field name="image" type="base64" file="demo_company/static/img/likovi/superhik.png"/>
+    <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/superhik.png"/>
 </record>
 <record id="partner_gumiflex" model="res.partner">
     <field name="name">Mr Gumiflex</field>
@@ -131,7 +131,7 @@
     
     <field name="notify_email">none</field>
     <field name="opt_out" eval="True"/><!-- no mass mailings for me please! -->
-    <field name="image" type="base64" file="demo_company/static/img/likovi/gumiflex.png"/>
+    <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/gumiflex.png"/>
 </record>
 <record id="partner_pizistrat" model="res.partner">
     <field name="name">Pizistrat Nelson</field>
@@ -141,7 +141,7 @@
     <field name="type">other</field>
     <field name="notify_email">none</field>
     <field name="opt_out" eval="True"/><!-- no mass mailings for me please! -->
-    <field name="image" type="base64" file="demo_company/static/img/likovi/pisistrat.png"/>
+    <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/pisistrat.png"/>
 </record>
 <record id="partner_lopatar" model="res.partner">
     <field name="name">Pero Lopatar</field>
@@ -151,7 +151,7 @@
     <field name="type">other</field>
     <field name="notify_email">none</field>
     <field name="opt_out" eval="True"/><!-- no mass mailings for me please! -->
-    <field name="image" type="base64" file="demo_company/static/img/likovi/lopatar.png"/>
+    <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/lopatar.png"/>
 </record>
 <!-- a sad , malo poduzeća sa kontaktima -->
 <!-- NY PD - Drzava US, NE EU -->
@@ -164,7 +164,7 @@
     <field name="country_id" ref="base.us"/>
     <field name="notify_email">none</field>
     <field name="opt_out" eval="True"/><!-- no mass mailings for me please! -->
-    <field name="image" type="base64" file="demo_company/static/img/likovi/nypd.png"/>
+    <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/nypd.png"/>
 </record>
     <record id="partner_nypd_brock" model="res.partner">
         <field name="name">Inspektor Brock</field>
@@ -175,7 +175,7 @@
         <field name="country_id" ref="base.us"/>
         <field name="notify_email">none</field>
         <field name="opt_out" eval="True"/><!-- no mass mailings for me please! -->
-        <field name="image" type="base64" file="demo_company/static/img/likovi/brock.png"/>
+        <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/brock.png"/>
     </record>
 <!-- Fr - EU -->
 <record id="partner_mma" model="res.partner">
@@ -189,7 +189,7 @@
     <field name="country_id" ref="base.fr"/>
     <field name="notify_email">none</field>
     <field name="opt_out" eval="True"/><!-- no mass mailings for me please! -->
-    <field name="image" type="base64" file="demo_company/static/img/likovi/margot_agency.png"/>
+    <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/margot_agency.png"/>
 </record>
     <record id="partner_mma_margot" model="res.partner">
         <field name="name">Madamme Margot</field>
@@ -199,7 +199,7 @@
         <field name="customer" eval="0"/>
         <field name="type">contact</field>
         <field name="country_id" ref="base.fr"/>
-        <field name="image" type="base64" file="demo_company/static/img/likovi/margot.png"/>
+        <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/margot.png"/>
     </record>
 <!-- Domaći -->
 <record id="partner_minist" model="res.partner">
@@ -221,7 +221,7 @@
         <field name="type">other</field>
         <field name="notify_email">none</field>
         <field name="opt_out" eval="True"/><!-- no mass mailings for me please! -->
-        <field name="image" type="base64" file="demo_company/static/img/likovi/war.png"/>
+        <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/war.png"/>
     </record>
     <record id="partner_bert" model="res.partner">
         <field name="parent_id" ref="partner_minist"/>
@@ -232,7 +232,7 @@
         <field name="type">other</field>
         <field name="notify_email">none</field>
         <field name="opt_out" eval="True"/><!-- no mass mailings for me please! -->
-        <field name="image" type="base64" file="demo_company/static/img/likovi/bert.png"/>
+        <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/bert.png"/>
     </record>
 <record id="partner_tt" model="res.partner">
     <field name="name">Thobia's Theatre</field>
@@ -242,7 +242,7 @@
     <field name="type">other</field>
     <field name="notify_email">none</field>
     <field name="opt_out" eval="True"/><!-- no mass mailings for me please! -->
-    <field name="image" type="base64" file="demo_company/static/img/likovi/theatar.png"/>
+    <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/theatar.png"/>
 </record>
     <record id="partner_thobias" model="res.partner">
         <field name="parent_id" ref="partner_tt"/>
@@ -253,7 +253,7 @@
         <field name="type">other</field>
         <field name="notify_email">none</field>
         <field name="opt_out" eval="True"/><!-- no mass mailings for me please! -->
-        <field name="image" type="base64" file="demo_company/static/img/likovi/tobija.png"/>
+        <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/tobija.png"/>
     </record>
 <record id="partner_bing" model="res.partner">
     <field name="name">HALO BING d.o.o.</field>
@@ -263,7 +263,7 @@
     <field name="type">other</field>
     <field name="notify_email">none</field>
     <field name="opt_out" eval="True"/><!-- no mass mailings for me please! -->
-    <field name="image" type="base64" file="demo_company/static/img/likovi/halo_bing.png"/>
+    <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/halo_bing.png"/>
 </record>
 <record id="partner_udruzenje_prop" model="res.partner">
     <field name="name">Udruženje propalica</field>
@@ -273,7 +273,7 @@
     <field name="type">other</field>
     <field name="notify_email">none</field>
     <field name="opt_out" eval="True"/><!-- no mass mailings for me please! -->
-    <field name="image" type="base64" file="demo_company/static/img/likovi/udruga_propalica.png"/>
+    <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/udruga_propalica.png"/>
 </record>
 <record id="partner_taxsy" model="res.partner">
     <field name="name">TAXsy d.o.o.</field>
@@ -283,7 +283,7 @@
     <field name="type">other</field>
     <field name="notify_email">none</field>
     <field name="opt_out" eval="True"/><!-- no mass mailings for me please! -->
-    <field name="image" type="base64" file="demo_company/static/img/likovi/taxsy.png"/>
+    <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/taxsy.png"/>
 </record>
 <record id="partner_jjc" model="res.partner">
     <field name="name">Jako Jeftina Cuga d.o.o.</field>
@@ -293,7 +293,7 @@
     <field name="type">other</field>
     <field name="notify_email">none</field>
     <field name="opt_out" eval="True"/><!-- no mass mailings for me please! -->
-    <field name="image" type="base64" file="demo_company/static/img/likovi/jjc.png"/>
+    <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/jjc.png"/>
 </record>
 
 </data>
