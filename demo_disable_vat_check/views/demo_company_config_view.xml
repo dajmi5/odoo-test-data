@@ -3,7 +3,7 @@
     <data>
     <record id="view_demo_company_vat_check_config" model="ir.ui.view">
         <field name="name">view_demo_company_vat_check_config</field>
-        <field name="inherit_id" ref="demo_company.view_demo_company_config_settings"/>
+        <field name="inherit_id" ref="company_grupa_tnt.view_demo_company_config_settings"/>
         <field name="model">demo.company.settings</field>
         <field name="arch" type="xml">
             <label name="start_label" position="after">
