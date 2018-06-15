@@ -8,5 +8,5 @@ class DemoCompanyWizard(models.TransientModel):
     _inherit = 'demo.company.settings'
 
 
-    iban_demo = fields.Selection(related='company_id.vat_demo')
+    iban_demo = fields.Selection(related='company_id.iban_demo')
 
