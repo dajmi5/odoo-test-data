@@ -14,13 +14,14 @@ class ResPartnerBank(models.Model):
     @api.constrains('acc_number')
     def _check_iban(self):
         if self.company_id.iban_demo == 'none':
+            # no check
             return True
-        elif self.company_id.ibn_demo == 'country':
+        elif self.company_id.iban_demo == 'country':
             if not self.partner_id.country_id:
-                raise
+                raise ValidationError(_("You need to set country on employee home address"))
             else:
                 if self.partner_id.country_id.code != self.acc_number[:2]:
-                    raise
+                    raise ValidationError(_("Employe country is diffrent from IBAN acc country code!"))
         else:
             super(ResPartnerBank, self)._check_iban()
 
