@@ -7,7 +7,7 @@
 </record>
 <!-- partner-user match -->
 <record id="partner_broj1" model="res.partner">
-    <field name="parent_id" ref="base.main_partner"/>
+    <!--<!--<field name="parent_id" ref="base.main_partner"/>-->-->
     <field name="name">BROJ 1</field>
     <field name="is_company" eval="0"/>
     <field name="type">contact</field>
@@ -15,7 +15,7 @@
     <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/broj_1.png"/>
 </record>
 <record id="partner_debeli_sef" model="res.partner">
-    <field name="parent_id" ref="base.main_partner"/>
+    <!--<field name="parent_id" ref="base.main_partner"/>-->
     <field name="name">Gervasius Twinklminkelson</field>
     <field name="is_company" eval="0"/>
     <field name="type">contact</field>
@@ -24,7 +24,7 @@
     <field name="comment">Stalno spava, a.k.a Debeli Šef</field>
 </record>
 <record id="partner_jeremija" model="res.partner">
-    <field name="parent_id" ref="base.main_partner"/>
+    <!--<field name="parent_id" ref="base.main_partner"/>-->
     <field name="name">Jeremija Lešina</field>
     <field name="is_company" eval="0"/>
     <field name="type">contact</field>
@@ -33,7 +33,7 @@
     <field name="comment">Hoće li doživjeti sutra?</field>
 </record>
 <record id="partner_alan_ford" model="res.partner">
-    <field name="parent_id" ref="base.main_partner"/>
+    <!--<field name="parent_id" ref="base.main_partner"/>-->
     <field name="name">Alan Ford</field>
     <field name="is_company" eval="0"/>
     <field name="type">contact</field>
@@ -41,7 +41,7 @@
     <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/alan_ford.png"/>
 </record>
 <record id="partner_bob_rock" model="res.partner">
-    <field name="parent_id" ref="base.main_partner"/>
+    <!--<field name="parent_id" ref="base.main_partner"/>-->
     <field name="name">Robert Rock</field>
     <field name="is_company" eval="0"/>
     <field name="type">contact</field>
@@ -49,7 +49,7 @@
     <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/bob_rock.png"/>
 </record>
 <record id="partner_grunf" model="res.partner">
-    <field name="parent_id" ref="base.main_partner"/>
+    <!--<field name="parent_id" ref="base.main_partner"/>-->
     <field name="name">Otto von Grunt</field>
     <field name="is_company" eval="0"/>
     <field name="type">contact</field>
@@ -57,7 +57,7 @@
     <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/grunf.png"/>
 </record>
 <record id="partner_sir_oliver" model="res.partner">
-    <field name="parent_id" ref="base.main_partner"/>
+    <!--<field name="parent_id" ref="base.main_partner"/>-->
     <field name="name">Sir Oliver Oliver</field>
     <field name="is_company" eval="0"/>
     <field name="type">contact</field>
@@ -66,7 +66,7 @@
 </record>
 <!-- TNT members, not users NO EMAILS-->
 <record id="partner_klo" model="res.partner">
-    <field name="parent_id" ref="base.main_partner"/>
+    <!--<field name="parent_id" ref="base.main_partner"/>-->
     <field name="name">Klodovik</field>
     <field name="is_company" eval="0"/>
     <field name="type">contact</field>
@@ -74,7 +74,7 @@
     <field name="image" type="base64" file="company_grupa_tnt/static/img/likovi/klodovik.png"/>
 </record>
 <record id="partner_nosonja" model="res.partner">
-    <field name="parent_id" ref="base.main_partner"/>
+    <!--<field name="parent_id" ref="base.main_partner"/>-->
     <field name="name">Nosonja</field>
     <field name="is_company" eval="0"/>
     <field name="type">contact</field>
