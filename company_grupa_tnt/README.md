@@ -7,7 +7,7 @@ and sometimes hard to understand.
 Za početak idemo se malo upoznati sa ekipom i postavkama:
 Ovaj modul donosi Postavke fiktivnog poduzeća Grupa TNT, korisnike, partnere
 
-Likovi iz ovog modula mogu se kroistiti u svim ostalim demo/test lokalizacijama modulima
+Likovi iz ovog modula mogu se koristiti u svim ostalim demo/test lokalizacijama modulima
 ______________________________________
 
 - Broj1 (broj1)
@@ -26,7 +26,7 @@ DISCLAIMER:
     podaci su izmišljeni, a njihove slike su crno bijele,
     Svaka sličnost sa pravim likovima ili poduzećima je slučajna
 
-    izvor inspiracie za likove:
+    izvor inspiracije za likove:
         https://hr.wikipedia.org/wiki/Alan_Ford
 
     

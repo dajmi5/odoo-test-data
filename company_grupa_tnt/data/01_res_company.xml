@@ -7,7 +7,7 @@
         <field name="phone">0800-odoo</field>
         <field name="email">info@odoo-hrvatska.org</field>
         <field name="logo" type="base64" file="company_grupa_tnt/static/img/tnt-logo.png"/>
-        <field name="rml_header1">Mi ništa ne obećavao a to i ispunjavamo!</field>
+<!--        <field name="rml_header1">Mi ništa ne obećavao a to i ispunjavamo!</field>-->
         <!--<field name="rml_header1">Cijena, PRAVA SITNICA!</field>-->
         <!--<field name="rml_header1">Bolje gotova gotovina, nego čekovno očekivanje!</field>-->
         <!--<field name="rml_header1">Mi imamo iskustvo a vi novac, na kraju vama ostane iskustvo a nama novac!</field>-->

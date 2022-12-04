@@ -1,11 +1,6 @@
 <?xml version="1.0"?>
 <odoo>
     <data noupdate="0">
-        <record id="base.user_root" model="res.users">
-            <field name="login">admin</field>
-            <field name="partner_id" ref="base.partner_root"/>
-            <field name="company_id" ref="base.main_company"/>
-        </record>
         <record id="user_broj1" model="res.users">
             <field name="login">broj1</field>
             <field name="partner_id" ref="partner_broj1"/>
